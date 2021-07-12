@@ -1,7 +1,6 @@
 import { InferGetStaticPropsType } from 'next';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
-import { UserModel } from '../../models/users';
 import styles from '../../styles/Users.module.css';
 import Link from 'next/link';
 import { getUsersList } from '../../services/UserService';
@@ -59,15 +58,7 @@ const UsersComponent = ({
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="http://asiasoftwaresolutions.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          App By Satveer from Asia Software Solutions
-        </a>
-      </footer>
+     
     </div>
   );
 };

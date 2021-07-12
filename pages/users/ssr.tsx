@@ -64,20 +64,9 @@ const ServerSideRenderingComponent = ({
         </table>
 
         <div>
-          {' '}
           <Link href="/">Back to Home page</Link>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="http://asiasoftwaresolutions.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          App By Satveer from Asia Software Solutions
-        </a>
-      </footer>
     </div>
   );
 };
