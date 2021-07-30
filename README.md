@@ -16,9 +16,4 @@ Static Site Generation (SSG): Open [http://localhost:3000/users](http://localhos
 
 Server Side Rendering (SSR): Open [http://localhost:3000/users/ssr](http://localhost:3000/users/ssr) in your browser
 
-Client Side Rendering (SSR): Open [http://localhost:3000/users/csr](http://localhost:3000/users/csr) in your browser
-
-Client Side Rendering (SSR): Open [http://localhost:3000/users/ssr](http://localhost:3000/users/ssr) in your browser
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
+Client Side Rendering (CSR): Open [http://localhost:3000/users/csr](http://localhost:3000/users/csr) in your browser
