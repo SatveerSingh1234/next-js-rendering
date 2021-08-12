@@ -1,10 +1,17 @@
-import { Fragment } from 'react';
+import { Fragment } from "react";
 
 const LayoutComponent = ({ children }: JSX.ElementChildrenAttribute) => {
   return (
     <Fragment>
       <header className="header">
-        <h1>Nextjs rendering concept</h1>
+        <div className="header-left">
+          <a className="active" href="#">
+            SSG
+          </a>
+          <a href="#">SSR</a>
+          <a href="#">CSR</a>
+          <a href="#">SSG Revalidation</a>
+        </div>
       </header>
       {children}
       <footer className="footer">
